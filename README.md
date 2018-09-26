@@ -13,4 +13,4 @@ After comparison, an HTTPStatus object is returned.
 The application runs on port 8080. 
 
 * Visiting "(url):8080/login.html" will provide an example front-end login form. Loging in will alter the title to either 200 or 401 depending on the response.
-* Alternatively, create a POST request with first two body fields (with content type application/x-www-form-urlencoded), first being the username and second being the password.  The request must target the /login endpoint, and will respond with either 200 if the credentials were accepted, or 401 in any other case.
+* Alternatively, create a POST request with two body form fields (with content type application/x-www-form-urlencoded), first being the username and second being the password.  The request must target the /login endpoint, and will respond with either 200 if the credentials were accepted, or 401 in any other case.
